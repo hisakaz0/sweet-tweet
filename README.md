@@ -12,8 +12,6 @@ __create access_token__
 ```bash
 ruby oauth.rb
 # go URL to get access token
-ruby access_token.rb <PIN_CODE>
-# get access_token
 vi config.yml
 # set to
 # 1. access_token
@@ -38,6 +36,7 @@ crontab -e
 
 __crontab setting__
 ```bash
+# 毎日8時,12時,20時にtweet
 00  8   *  *  * ruby /path/to/tweet.rb
 00  12   *  *  * ruby /path/to/tweet.rb
 00  20   *  *  * ruby /path/to/tweet.rb
