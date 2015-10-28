@@ -2,6 +2,13 @@
 
 ### せっとあっぷ
 
+__gem install__
+
+```bash
+bundle install
+```
+
+__create access_token__
 ```bash
 ruby oauth.rb
 # go URL to get access token
