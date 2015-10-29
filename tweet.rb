@@ -13,5 +13,5 @@ config_yml = YAML.load_file( config_file )
 end
 
 
-@client.update( config_yml['tweet'])
+@client.update( ARGV[0] ) 
 

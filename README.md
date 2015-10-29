@@ -22,7 +22,7 @@ vi config.yml
 ### えぐぜきゅーと
 
 ```bash
-ruby tweet.rb
+ruby tweet.rb 'tweet'
 ```
 
 ### 定期ついーと
@@ -37,7 +37,7 @@ crontab -e
 __crontab setting__
 ```bash
 # 毎日8時,12時,20時にtweet
-00  8   *  *  * ruby /path/to/tweet.rb
-00  12   *  *  * ruby /path/to/tweet.rb
-00  20   *  *  * ruby /path/to/tweet.rb
+00  8   *  *  * ruby /path/to/tweet.rb '1st tweet'
+00  12   *  *  * ruby /path/to/tweet.rb '2nd tweet'
+00  20   *  *  * ruby /path/to/tweet.rb '3rd tweet'
 ```
