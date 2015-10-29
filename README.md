@@ -1,6 +1,6 @@
-## auto tweet
+# Sweet Tweet
 
-### せっとあっぷ
+## せっとあっぷ
 
 __gem install__
 
@@ -19,13 +19,13 @@ vi config.yml
 # 3. tweet message
 ```
 
-### えぐぜきゅーと
+## えぐぜきゅーと
 
 ```bash
 ruby tweet.rb 'tweet'
 ```
 
-### 定期ついーと
+## 定期ついーと
 
 crontabでこんなんでどうですか?
 
